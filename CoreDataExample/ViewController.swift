@@ -6,14 +6,26 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
+    
+     var viewModel = HomeDataViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func save(_ sender: Any) {
+        viewModel.createDate()
+    }
+    
+    @IBAction func retrive(_ sender: Any) {
+        viewModel.retriveData()
+    }
+    @IBAction func deleteData(_ sender: Any) {
+        viewModel.deleteData()
+    }
 }
 

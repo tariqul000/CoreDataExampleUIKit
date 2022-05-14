@@ -14,6 +14,7 @@
 		B8B0A9B4282F702D00834FD6 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9B2282F702D00834FD6 /* CoreDataExample.xcdatamodeld */; };
 		B8B0A9B6282F702E00834FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9B5282F702E00834FD6 /* Assets.xcassets */; };
 		B8B0A9B9282F702E00834FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9B7282F702E00834FD6 /* LaunchScreen.storyboard */; };
+		B8B0A9C1282F7D5900834FD6 /* HomeDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9C0282F7D5900834FD6 /* HomeDataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B8B0A9B5282F702E00834FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8B0A9B8282F702E00834FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8B0A9BA282F702E00834FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B0A9C0282F7D5900834FD6 /* HomeDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				B8B0A9A9282F702D00834FD6 /* AppDelegate.swift */,
 				B8B0A9AB282F702D00834FD6 /* SceneDelegate.swift */,
+				B8B0A9C0282F7D5900834FD6 /* HomeDataViewModel.swift */,
 				B8B0A9AD282F702D00834FD6 /* ViewController.swift */,
 				B8B0A9AF282F702D00834FD6 /* Main.storyboard */,
 				B8B0A9B5282F702E00834FD6 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B0A9AE282F702D00834FD6 /* ViewController.swift in Sources */,
+				B8B0A9C1282F7D5900834FD6 /* HomeDataViewModel.swift in Sources */,
 				B8B0A9AA282F702D00834FD6 /* AppDelegate.swift in Sources */,
 				B8B0A9AC282F702D00834FD6 /* SceneDelegate.swift in Sources */,
 				B8B0A9B4282F702D00834FD6 /* CoreDataExample.xcdatamodeld in Sources */,
